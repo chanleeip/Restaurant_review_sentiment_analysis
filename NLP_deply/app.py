@@ -2,6 +2,7 @@ import pickle
 import re
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
+import flask_
 import numpy
 with open('vectorizer00.pkl', 'rb') as f:
     vectorizer = pickle.load(f)
