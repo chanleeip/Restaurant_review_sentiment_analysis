@@ -16,7 +16,8 @@ stop_words = stopwords.words('english')
 stop_words.remove('no')
 
 # Now you can use the data variable in your program
-sttring=input()
+print(flask_.nithin)
+sttring=flask_.nithin
 sttring=re.sub('[^a-zA-Z]',' ',sttring)
 sttring=sttring.lower()
 sttring=sttring.split()
